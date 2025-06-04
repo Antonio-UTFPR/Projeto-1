@@ -1,0 +1,85 @@
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #ffcc00;
+    margin-bottom: 2rem;
+}
+
+.quem-somos-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.descricao,
+.contato {
+    background-color: rgba(31, 42, 61, 0.8);
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+a {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.formulario {
+    background-color: rgba(31, 42, 61, 0.8);
+    border-radius: 15px;
+    padding: 2rem;
+}
+
+.formulario label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.formulario input,
+.formulario textarea {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario button {
+    background-color: #00bcd4;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background-color: #0288d1;
+}

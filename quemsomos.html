@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página Quem Somos - Informações de contato e redes sociais">
+    <title>Quem Somos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="quemsomos.css">
+<body class="quemsomos-page">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="quemsomos.html">Quem Somos</a></li>
+                <li><a href="trabalheconosco.html">Trabalhe Conosco</a></li>
+                <li><a href="paginaextra.html">Página Extra</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="quem-somos-container">
+            <h1>Quem Somos</h1>
+
+            <div class="descricao">
+                <h2>Sobre a CSSneakers</h2>
+                <p>Somos uma loja especializada em tênis exclusivos para todos os gostos e estilos. Nossa missão é oferecer produtos de qualidade para clientes que buscam conforto e estilo. Atendemos em nossa loja física e online, com uma entrega rápida e segura.</p>
+            </div>
+
+            <div class="contato">
+                <h2>Contato</h2>
+                <p><strong>Endereço:</strong> Rua Exemplo, 123 - Centro, Cidade, Estado</p>
+                <p><strong>E-mail:</strong> <a href="mailto:contato@loja.com">contato@cssneakers.com</a></p>
+                <p><strong>Redes Sociais:</strong></p>
+                <ul>
+                    <li><a href="https://www.instagram.com/utfpr_/" target="_blank">Instagram</a></li>
+                    <li><a href="hhttps://www.facebook.com/UTFPR/" target="_blank">Facebook</a></li>
+                </ul>
+            </div>
+
+            <div class="formulario">
+                <h2>Envie sua mensagem</h2>
+                <form action="enviar_mensagem.php" method="POST">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 CSSneakers - Desenvolvido por Antonio Carlos Ferreira</p>
+    </footer>
+</body>
+</html>

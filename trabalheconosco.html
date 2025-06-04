@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página Trabalhe Conosco - Oportunidades de trabalho na nossa loja">
+    <title>Trabalhe Conosco</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="trabalheconosco.css">
+</head>
+<body class="trabalhe-conosco-page">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="quemsomos.html">Quem Somos</a></li>
+                <li><a href="trabalheconosco.html">Trabalhe Conosco</a></li>
+                <li><a href="paginaextra.html">Página Extra</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="trabalhe-container">
+            <h1>Trabalhe Conosco</h1>
+
+            <div class="descricao">
+                <h2>Por que Trabalhar Conosco?</h2>
+                <p>Somos uma equipe jovem e dinâmica, sempre em busca de pessoas com paixão por moda e que compartilhem dos nossos valores. Se você gosta de um ambiente de trabalho criativo e colaborativo, aqui é o seu lugar!</p>
+            </div>
+
+            <div class="perfil">
+                <h2>Perfil da Equipe</h2>
+                <p>Procuramos profissionais que sejam:</p>
+                <ul>
+                    <li>Proativos e comunicativos</li>
+                    <li>Com capacidade de trabalhar em equipe</li>
+                    <li>Com conhecimento em moda e tendências</li>
+                    <li>Organizados e com atenção aos detalhes</li>
+                </ul>
+            </div>
+
+            <div class="como-enviar">
+                <h2>Como Enviar Seu Currículo</h2>
+                <p>Se você se identificou com o perfil da nossa equipe, envie seu currículo para o e-mail <a href="mailto:trabalheconosco@loja.com">trabalheconosco@loja.com</a> com o assunto "Currículo - [Sua área de interesse]" e nos diga por que você é a pessoa certa para a vaga.</p>
+                <p>Ou, se preferir, preencha o formulário abaixo:</p>
+                
+                <form action="enviar_curriculo.php" method="POST">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                    <label for="curriculo">Anexe seu Currículo (PDF):</label>
+                    <input type="file" id="curriculo" name="curriculo" accept=".pdf" required>
+
+                    <button type="submit">Enviar Currículo</button>
+                </form>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 CSSneakers - Desenvolvido por Antonio Carlos Ferreira</p>
+    </footer>
+</body>
+</html>

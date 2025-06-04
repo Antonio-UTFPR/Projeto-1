@@ -1,0 +1,122 @@
+body.home-page {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #1f2a3d;
+    padding: 1rem 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #00bcd4;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #ffcc00;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.cta-button {
+    background-color: #00bcd4;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background-color: #0288d1;
+}
+
+.about {
+    text-align: left;
+    padding: 3rem 10%;
+    color: #ffffff;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.about p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #1f2a3d;
+    color: white;
+}
+
+@media (max-width: 1024px) {
+    .hero {
+        padding: 3rem 5%;
+    }
+
+    .about {
+        padding: 3rem 5%; 
+    }
+
+    .hero h1 {
+        font-size: 2.5rem; 
+    }
+
+    .about h2 {
+        font-size: 2rem;
+    }
+
+    .cta-button {
+        font-size: 1.2rem;
+        padding: 0.8rem 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .about h2 {
+        font-size: 1.8rem;
+    }
+}
